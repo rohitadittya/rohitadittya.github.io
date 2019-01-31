@@ -377,6 +377,16 @@
 </div>
 </div>
 </div>
+ 
+  var $stickyBlock = document.querySelector('.sticky-block');
+var origOffsetY = $stickyBlock.offsetTop - 15; // 15 is your top margin
+
+function onScroll() {
+    window.scrollY >= origOffsetY ? $stickyBlock.classList.add('sticky') :
+    $stickyBlock.classList.remove('sticky');
+}
+
+document.addEventListener('scroll', onScroll);
 </body>
 </html>
 
