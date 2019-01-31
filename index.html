@@ -378,15 +378,7 @@
 </div>
 </div>
  
-  var $stickyTop = document.querySelector('.sticky-top');
-var origOffsetY = $stickyTop.offsetTop - 15; // 15 is your top margin
-
-function onScroll() {
-    window.scrollY >= origOffsetY ? $stickyTop.classList.add('sticky') :
-    $stickyTop.classList.remove('sticky');
-}
-
-document.addEventListener('scroll', onScroll);
+  
 </body>
 </html>
 
