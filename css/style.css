@@ -19,34 +19,10 @@ div.home{
   }
   
  
-  #navbarr {
-  overflow: hidden;
-  background-color: #333;
-}
-
-#navbarr navbar-brand,navbar-nav {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
 
 
 
 
-
-.content {
-  padding: 16px;
-}
-
-.sticky {
-  position: top;
-  top: 0;
-  width: 100%;
-}
 
 
 
