@@ -43,7 +43,7 @@ div.home{
 }
 
 .sticky {
-  position: fixed;
+  position: top;
   top: 0;
   width: 100%;
 }
