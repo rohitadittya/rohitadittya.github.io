@@ -19,12 +19,12 @@ div.home{
   }
   
  
-  #navbar {
+  #navbarr {
   overflow: hidden;
   background-color: #333;
 }
 
-#navbar navbar-brand,navbar-nav {
+#navbarr navbar-brand,navbar-nav {
   float: left;
   display: block;
   color: #f2f2f2;
