@@ -24,7 +24,7 @@ div.home{
   background-color: #333;
 }
 
-.navbar navbar-brand,navbar-nav {
+#navbar navbar-brand,navbar-nav {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -36,7 +36,7 @@ div.home{
 
 
 
-.
+
 
 .content {
   padding: 16px;
